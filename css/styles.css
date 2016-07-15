@@ -1,0 +1,31 @@
+/* This is the styles for the STEMposium wbesite. */
+
+/* Fonts */
+/*Montserrat Light - body*/
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Light.otf'); 
+	src: 
+		local('Montserrat Light'),
+		local('Montserrat-Light'),
+		url('fonts/Montserrat-Light.otf') 
+		format('opentype');
+    font-weight: light;
+    
+}
+/*bold version*/
+@font-face {
+	font-family: 'lovelyFont';
+	src: url('fonts/lovely_font_bold.eot'); 
+	src: 
+		local('Lovely Font Bold'),
+		local('Lovely-Font-Bold'),
+		url('fonts/lovely_font_bold.otf') 
+		format('opentype');
+	font-weight: bold;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
