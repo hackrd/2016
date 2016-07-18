@@ -35,7 +35,10 @@ h1 {
     background-color: rgb(254, 224, 3);
     border-left: 8px rgb(254, 224, 3) solid;
     border-right: 8px rgb(254, 224, 3) solid;
-    text-align: center;
+    padding: 0;
+    width: 35;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -44,6 +47,8 @@ h1 {
     white-space: pre;
     padding-bottom: 10px;
 }
+
+/* All Navbar Related Styling */
 
 .navbar-default{ /* assigning the top bar to the entire navbar div element */
     text-align: center;
@@ -75,6 +80,41 @@ h1 {
 	transition: all ease 0.2s;
      
 }
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+
+
 
 #header {
     
@@ -152,5 +192,13 @@ h1 {
 section {
     padding-top 50px;
     padding-bottom: 50px;
+}
+
+.brandlogo {
+ 
+    width: 294px; 
+    padding-left: 8px; 
+    padding-top: 4px;
+    
 }
 
