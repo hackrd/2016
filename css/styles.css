@@ -1,6 +1,5 @@
 /* This is the styles for the STEMposium wbesite. */
-/*@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:700,700i';*/
-/*  background-color: rgb(254, 224, 3); */
+/* Yellow accent color = rgb(254, 224, 3); */
 
 body {
     font-family: 'montserratlight', sans-serif;
@@ -29,13 +28,30 @@ h1 {
     
 }
 
+.section-heading {
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    color: rgb(30,30,30);
+    background-color: rgb(254, 224, 3);
+    border-left: 8px rgb(254, 224, 3) solid;
+    border-right: 8px rgb(254, 224, 3) solid;
+    text-align: center;
+    
+}
+
+.section-heading:after {
+     content:"\a";
+    white-space: pre;
+    padding-bottom: 10px;
+}
+
 .navbar-default{ /* assigning the top bar to the entire navbar div element */
     text-align: center;
     box-shadow: inset 0px 6px 0px rgb(254, 224, 3); /* initial gray color to the top bar */   
     padding-top: 4px;
     background-color: rgb(248, 248, 248) !important;
     border-color: transparent
-
+        
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -49,6 +65,15 @@ h1 {
     font-size: 16px;
     color:  rgb(30,30,30);
     padding-top: 17px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    
+    font-family: montserratsemi_bold;
+    -webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+     
 }
 
 #header {
@@ -65,12 +90,14 @@ h1 {
     max-width: 100%;
     height: 100vh;
     
+    
 }
 
 .headwrap {
     width: 100%;
     padding: 0;
     display: table;
+    
     
 }
 
@@ -83,6 +110,7 @@ h1 {
     padding-left: 50px;
     color: rgb(30,30,30);
     background-color: rgba(255,255,255, .75);
+    
 }
 .headings {
     width: 1983px;
@@ -91,8 +119,6 @@ h1 {
     
     
 }
-
-
 
 .btn-px {
   color: fff;
@@ -117,8 +143,14 @@ h1 {
   border-color: rgb(30,30,30);;
     }
 
-headerlogo {
+.headerlogo {
     max-width: 50%;
     
     
 }
+
+section {
+    padding-top 50px;
+    padding-bottom: 50px;
+}
+
