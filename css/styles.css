@@ -7,10 +7,17 @@ body {
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 50px;
+    font-size: 16px;
  
 }
 
-h4 {
+a {
+    cursor: pointer;
+    color: rgb(234, 205, 0) !important;
+    
+}
+
+sh {
    font-family: 'montserratextra_bold', sans-serif;
    text-transform: uppercase;
  font-weight: normal;
@@ -20,6 +27,7 @@ h4 {
     color: white;
     border-left: 4px rgb(30,30,30) solid;
     border-right: 4px rgb(30,30,30) solid;
+    font-size: 24px;
 }
 
 h1 {
@@ -30,15 +38,12 @@ h1 {
 
 .section-heading {
     font-family: 'Playfair Display', serif;
-    display: inline;
     color: rgb(30,30,30);
-    background-color: rgb(254, 224, 3);
+   /* background-color: rgb(254, 224, 3);
     border-left: 8px rgb(254, 224, 3) solid;
-    border-right: 8px rgb(254, 224, 3) solid;
-    padding: 0;
-    width: 35;
-    margin-left: auto;
-    margin-right: auto;
+    border-right: 8px rgb(254, 224, 3) solid; */
+    position: relative;
+    text-align: center !important;
     
 }
 
@@ -46,6 +51,28 @@ h1 {
      content:"\a";
     white-space: pre;
     padding-bottom: 10px;
+}
+
+.section-heading span {
+  background-color: rgb(254, 224, 3);
+    border-left: 8px rgb(254, 224, 3) solid;
+    border-right: 8px rgb(254, 224, 3) solid;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.section-heading:before {
+  background: rgb(73,78,85);
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+.section-heading:before {
+  left: 0;
 }
 
 /* All Navbar Related Styling */
@@ -68,7 +95,7 @@ h1 {
 }
 .navbar .nav > li > a {
     font-size: 16px;
-    color:  rgb(30,30,30);
+    color:  rgb(30,30,30) !important;
     padding-top: 17px;
 }
 
@@ -161,7 +188,7 @@ h1 {
 }
 
 .btn-px {
-  color: fff;
+  color: rgb(30,30,30);
   background-color: rgb(254, 224, 3);
   border-color: rgb(254, 224, 3);;
   border-radius: 28px;
@@ -180,8 +207,30 @@ h1 {
 .btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
     color: rgb(254, 224, 3);
   background-color: rgb(30,30,30);
-  border-color: rgb(30,30,30);;
-    }
+  border-color: rgb(30,30,30);
+}
+
+.btn-one {
+  color: rgb(30,30,30);
+  background-color: rgb(254, 224, 3);
+  border-color: rgb(254, 224, 3);;
+  border-radius: 10px;
+  border-width: 3px;
+  font-weight: 200 !important;
+  font-family: montserratbold;
+  
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+    
+}
+
+.btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
+    color: rgb(254, 224, 3);
+  background-color: rgb(30,30,30);
+  border-color: rgb(30,30,30);
+}
+
 
 .headerlogo {
     max-width: 50%;
@@ -191,7 +240,7 @@ h1 {
 
 section {
     padding-top 50px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .brandlogo {
@@ -201,4 +250,6 @@ section {
     padding-top: 4px;
     
 }
+
+
 
