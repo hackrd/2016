@@ -54,9 +54,9 @@ h1 {
 }
 
 .section-heading span {
-  background-color: rgb(254, 224, 3);
-    border-left: 8px rgb(254, 224, 3) solid;
-    border-right: 8px rgb(254, 224, 3) solid;
+  background-color: rgb(255, 255, 255);
+    border-left: 8px rgb(255, 255, 255) solid;
+    border-right: 8px rgb(255, 255, 255) solid;
   padding: 0 15px;
   position: relative;
   z-index: 1;
@@ -66,9 +66,10 @@ h1 {
   background: rgb(73,78,85);
   content: "";
   display: block;
-  height: 1px;
+  height: 2px;
   position: absolute;
     top: 50%;
+    
   width: 100%;
 }
 .section-heading:before {
