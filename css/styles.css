@@ -212,7 +212,7 @@ h1 {
 }
 
 .btn-one {
-  color: rgb(30,30,30);
+  color: rgb(30,30,30) !important;
   background-color: rgb(254, 224, 3);
   border-color: rgb(254, 224, 3);;
   border-radius: 10px;
@@ -227,7 +227,7 @@ h1 {
 }
 
 .btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
-    color: rgb(254, 224, 3);
+    color: rgb(254, 224, 3) !important;
   background-color: rgb(30,30,30);
   border-color: rgb(30,30,30);
 }
@@ -252,5 +252,8 @@ section {
     
 }
 
-
+.abt-sect {
+    padding-bottom: 35px;
+    
+}
 
