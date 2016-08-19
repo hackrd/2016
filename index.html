@@ -17,6 +17,7 @@
       
     <link href="fonts/montserrat/montserrat.css" rel="stylesheet" type="text/css" charset="utf-8">
     <link href="fonts/pfd/playfair.css" rel="stylesheet" type="text/css" charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <!--- Favicon Crap --->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -69,7 +70,7 @@
       
       
       
- <section>
+ <section class="body">
               <div class="headwrap" id="header">
                   <div class="container">
                   <img class="headerlogo" src="img/logo.png">
@@ -99,7 +100,7 @@
            </div>
         </section>
       
-      <section>
+      <section class="body">
            <div class="container section">
             <h1 class="section-heading" align="center"><span>Info</span></h1>
                <br>
@@ -154,7 +155,7 @@
            </div>
         </section>
       
-        <section>
+        <section class="body">
            <div class="container section">
             <h1 class="section-heading" align="center"><span>FAQ</span></h1>
                
@@ -205,12 +206,20 @@
            </div>
         </section>
       
-        <section id="schedule">
+        <section class="body" id="schedule">
            <div class="container section">
             <h1 class="section-heading" align="center"><span>Schedule</span></h1>
                <br>
-                <sh>This is the Schedule section</sh> 
-               <p>Nothing to see here... Just a placeholder; We'll fill it with it's actual contercontent at some point.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4" align="right">
+                            <b class="schedule">07:30</b>
+                        </div>
+                        <div class="col-md-8" align="left" class="schedule">
+                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/pizza-24.png" title="Pizza" width="40"> 
+                        </div>
+                    </div>
+                </div>
         
                
                
@@ -218,7 +227,7 @@
            </div>
         </section>
       
-      <section id="sponsor">
+      <section class="body" id="sponsor">
            <div class="container section">
             <h1 class="section-heading" align="center"><span>Sponsors</span></h1>
                <br>
@@ -260,7 +269,7 @@
            </div>
         </section>
       
-      <section id="register">
+      <section class="body" id="register">
            <div class="container section">
             <h1 class="section-heading" align="center"><span>Register</span></h1>
                <br>
@@ -272,16 +281,20 @@
            </div>
         <div id="register"></div>
         </section>
-                            <section class="footer">
-                            
-                            <img src="img/mlh/mlh-logo-white.png" width="250px" height="150px"    
                             
                             
+                            <footer>
+                            <div class="container footer-content" align="center">
+                            <img src="img/foot_img.png" class="leg-img">    
+                                <br>
+                                <br>
+                            <p class="text-muted">&copy; 2016 River Dell Regional School District | Made by humans
+                                </div>
                             
                             
                             
-                            </section>
-      
+                            
+                                 </footer>
       
       
       
@@ -290,4 +303,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
+      <script>
+$('.nav a').on('click', function(){
+    $('.btn-navbar').click(); //bootstrap 2.x
+    $('.navbar-toggle').click() //bootstrap 3.x by Richard
+});
+	
+</script>
+<script>
+$(function() {
+    
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+  
+});
+</script>
 </html>

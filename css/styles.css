@@ -6,9 +6,13 @@ body {
  font-weight: normal;
     font-style: normal;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     font-size: 16px;
  
+}
+
+b{
+font-family: 'montserratbold', sans-serif;  
 }
 
 a {
@@ -32,9 +36,14 @@ sh {
 
 h1 {
     
-    font-size: 3.5em;
+    font-size: 3.5em !important;
     
 }
+
+h3 {
+    font-size: 2em !important;
+}
+
 
 .section-heading {
     font-family: 'playfair_displaybold_italic', serif;
@@ -175,7 +184,7 @@ h1 {
     width: 100%;
     height: 100%;
     position: relative;
-    padding-left: 50px;
+    padding-left: 50px !important;
     color: rgb(30,30,30);
     background-color: rgba(255,255,255, .75);
     
@@ -234,7 +243,7 @@ h1 {
 
 
 .headerlogo {
-    max-width: 50%;
+    max-width: 50% !important;
     
     
 }
@@ -261,9 +270,28 @@ section {
     width: 725px;
 }
 
-.footer {
-    
-    background-color: #212121;
+footer {
+    min-height: 250px;
+    background-color: rgb(232, 232, 232);
     color: #333333;
+    padding-top: 20px;
     padding-bottom: 0px; !important
+    
+}
+
+div .footer-content {
+    
+    text-align: center;
+    align-items: center;
+}
+
+.leg-img {
+    max-width: 450px;
+    max-height: 150px;
+    
+}
+
+.schedule {
+    font-size: 2em;
+    font-family: 'montserratlight', sans-serif;
 }
