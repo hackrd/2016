@@ -12,7 +12,7 @@ body {
 }
 
 b{
-font-family: 'montserratbold', sans-serif;  
+ font-family: 'montserratbold', sans-serif !important;
 }
 
 a {
@@ -294,4 +294,8 @@ div .footer-content {
 .schedule {
     font-size: 2em;
     font-family: 'montserratlight', sans-serif;
+}
+
+.sch-container {
+    padding-left: 350px;
 }
