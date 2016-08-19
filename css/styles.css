@@ -297,5 +297,14 @@ div .footer-content {
 }
 
 .sch-container {
-    padding-left: 250px;
+    padding-left: 350px;
+}
+
+.intel {
+    padding-left: 90px;
+}
+
+.cdw {
+    padding-top: 15px;
+    padding-left: 30px;
 }
