@@ -108,6 +108,7 @@
                <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-8">
+                            <div class="overlay" onClick="style.pointerEvents='none'"></div>
                                 <iframe class="flexible" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.689769888508!2d-74.038378684919!3d40.944465879307266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2faa1360480df%3A0x875be3f4c98f864b!2s55+Pyle+St%2C+Oradell%2C+NJ+07649!5e0!3m2!1sen!2sus!4v1469213397652" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <div class="col-md-4">
@@ -140,7 +141,7 @@
                             <br>
                                 </div>
                             <hr>
-                                Have questions about busing or use of mass-transit? <a>See here</a>.
+                                Have questions about busing or use of mass-transit? <a class="normal">See here</a>.
                                 
                                 
                             
@@ -199,7 +200,7 @@
                     </div>
 	           </div>
                
-                <p align="center">Have another question? <a href="mailto:hackrd07649@gmail.com">Contact Us</a>!</p>
+                <p align="center">Have another question? <a class="normal" href="mailto:hackrd07649@gmail.com">Contact Us</a>!</p>
         
                <div id="schedule"></div>
                
@@ -211,104 +212,51 @@
            <div class="container section">
             <h1 class="section-heading" align="center"><span>Schedule</span></h1>
                <br>
-                <div class="container-fluid sch-container">
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">07:30</b>
-                        </div>
-                        <div class="col-md-1" align="right">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Cinema/two_tickets-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Check-In Begins</text>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">08:00</b>
-                        </div>
-                        <div class="col-md-1" align="right">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Business/podium_with_speaker-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Opening Ceremony // Keynote</text>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">09:00</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Photo_Video/start-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Hacking Starts</text>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">12:30</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Food/hot_dog-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Lunch is Served</text>
-                        
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">19:00</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Household/dining_room-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Dinner is Served</text>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">21:00</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Sports/finish_flag-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Hacking Ends // Submit Hacks</text>
-                        </div>
-                    </div>
-                        <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">21:15</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Industry/spotlight-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Hack Expo // Judging</text>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3" align="right">
-                            <b class="schedule">22:00</b>
-                        </div>
-                        <div class="col-md-1" align="center">
-                            <img src="https://maxcdn.icons8.com/Color/PNG/24/Sports/leaderboard-24.png" width="40">
-                        </div>
-                        <div class="col-md-8" align="left" class="schedule">
-                            
-                            <text class="schedule">Closing/Awards Ceremony</text>
-                        </div>
-                    </div>
+                <div class="container" align="center">
+                    <table class="table table-borderless table-condensed">
+                    <tr>
+                    <td class="sch-time">07:30</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Two%20Tickets-40.png"></td>
+                    <td class="sch-event">Doors Open</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">08:00</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Podium%20With%20Speaker-40.png"></td>
+                    <td class="sch-event">Opening Ceremony</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">09:00</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Circled%20Play.png"></td>
+                    <td class="sch-event">Doors Open</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">12:30</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Pizza.png"></td>
+                    <td class="sch-event">Lunch is Served</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">19:00</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Taco.png"></td>
+                    <td class="sch-event">Dinner is Served</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">21:00</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Finish%20Flag.png"></td>
+                    <td class="sch-event">Hacking Ends // Submit Hacks</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">21:15</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Spotlight.png"></td>
+                    <td class="sch-event">Expo and Judging</td>
+                    </tr>
+                    <tr>
+                    <td class="sch-time">22:00</td>
+                    <td class="sch-emoji"><img class="sch-icon" src="img/icons/Leaderboard.png"></td>
+                    <td class="sch-event">Closing Ceremony</td>
+                    </tr>
+                    
+                    </table>
+                    
                 </div>
         
                
@@ -381,7 +329,8 @@
                             <img src="img/foot_img.png" class="leg-img">    
                                 <br>
                                 <br>
-                            <p class="text-muted">&copy; 2016 River Dell Regional School District | Made by humans
+                                <p class="text-muted">&copy; 2016 River Dell Regional School District | Made by humans</p>
+                                <p class="text-muted"><a class="footer">Sources</a> | <a class="footer">Terms & Conditions</a> | <a href="https://mlh.io/" class="footer">Major League Hacking</a> | <a class="footer">River Dell Regional School District</a></p>
                                 </div>
                             
                             
@@ -414,5 +363,17 @@ $(function() {
   });
   
 });
+</script>
+<script>
+    function initMap(){
+    var isDraggable = $(document).width() > 480 ? true : false; // If document (your website) is wider than 480px, isDraggable = true, else isDraggable = false
+
+    var mapOptions = {
+        draggable: isDraggable,
+
+        scrollwheel: false, // Prevent users to start zooming the map when scrolling down the page
+        //... options options options
+    };
+}
 </script>
 </html>
