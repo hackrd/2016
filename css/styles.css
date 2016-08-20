@@ -100,7 +100,9 @@ h3 {
     box-shadow: inset 0px 6px 0px rgb(254, 224, 3); /* initial gray color to the top bar */   
     padding-top: 4px;
     background-color: rgb(248, 248, 248) !important;
-    border-color: transparent
+    border-color: transparent;
+    position: fixed; 
+    
         
 }
 .navbar-default .navbar-nav > .active > a,
@@ -115,6 +117,7 @@ h3 {
     font-size: 16px;
     color:  rgb(30,30,30) !important;
     padding-top: 17px;
+    
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -317,17 +320,20 @@ div .footer-content {
 .intel {
     padding-left: 10px;
     max-width: 75%;
+    overflow: hidden;
 }
 
 .cdw {
     padding-top: 60px;
     padding-left: 30px;
     max-width: 85%;
+    overflow: hidden;
 }
 
 .ms {
     max-width: 85%; 
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .overlay {

@@ -91,6 +91,26 @@
         padding-left: 30px !important;
      }
      
+     .intel {
+    padding-left: 10px;
+    max-width: 55%;
+    overflow: hidden;
+}
+
+.cdw {
+    padding-top: 60px;
+    padding-left: 30px;
+    max-width: 55%;
+    overflow: hidden;
+}
+
+.ms {
+    max-width: 55%; 
+    padding-top: 30px;
+    overflow: hidden;
+}
+     
+     
 }
 
 /* Portrait */
@@ -113,3 +133,5 @@
   and (orientation: landscape) { 
 
 }
+
+
