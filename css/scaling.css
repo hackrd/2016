@@ -35,7 +35,7 @@
  
     width: 200px;
     padding-top: 0px !important;
-  
+    padding-left: 25px;
 
     
 }
@@ -90,6 +90,30 @@
      .headwrap .container {
         padding-left: 30px !important;
      }
+     
+     .intel {
+    padding-left: 85px;
+    max-width: 70%;
+}
+
+.cdw {
+    padding-top: 60px;
+    padding-left: 70px;
+    max-width: 78%;
+}
+
+.ms {
+    max-width: 75%; 
+    padding-top: 10px;
+    padding-left: 65px;
+}
+     
+     .footer-content {
+         font-size: 13px;
+     }
+     
+     
+     
      
 }
 
