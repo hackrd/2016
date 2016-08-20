@@ -4,7 +4,7 @@
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+ { 
         
         .headings {
             max-width: 200% !important;
@@ -17,27 +17,35 @@
     font-size: 1.75em !important;
           
     }
+     
+     headtext {
+         font-size: 1.75em !important;
+         line-height: 90%;
+     }
       
       h3 {
           font-size: 1.25em !important;
+          line-height: 89%;
       }
             
 .brandlogo {
  
-    width: 124px; 
+    width: 200px;
+    padding-top: 0px !important;
+    padding-left: 25px;
 
     
 }
+ 
+     p {
+         
+    font-size: 18px;
+         
+     }
       
-      .flexible {
-         max-width: 200% !important;
-          
-      }
-
-}
 
 .headerlogo {
-    max-width: 105%;
+    width: 300px !important;
     
 }
 
@@ -48,6 +56,14 @@
     
 }
 
+.leg-img {
+   width: 290px;
+    
+}
+     .headwrap .container {
+        padding-left: 30px !important;
+     }
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
@@ -55,7 +71,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
       
+
+      
 }
+
 
 /* Landscape */
 @media only screen 

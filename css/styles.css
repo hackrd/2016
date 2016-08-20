@@ -36,7 +36,7 @@ sh {
 
 h1 {
     
-    font-size: 3.5em !important;
+    font-size: 3em !important;
     
 }
 
@@ -178,6 +178,12 @@ h3 {
     
 }
 
+headtext {
+    font-size: 3.5em !important;
+    
+         line-height: 200%;
+}
+
 .headwrap .container {
     display: table-cell;
     vertical-align: middle;
@@ -243,7 +249,7 @@ h3 {
 
 
 .headerlogo {
-    max-width: 50% !important;
+    width: 950px !important;
     
     
 }
@@ -266,8 +272,8 @@ section {
     
 }
 
-.flexible {
-    width: 725px;
+iframe {
+ width: 100%;
 }
 
 footer {
@@ -286,8 +292,8 @@ div .footer-content {
 }
 
 .leg-img {
-    max-width: 450px;
-    max-height: 150px;
+    max-width: 35%;
+
     
 }
 
@@ -297,14 +303,21 @@ div .footer-content {
 }
 
 .sch-container {
-    padding-left: 350px;
+    padding-left: 0px;
 }
 
 .intel {
-    padding-left: 90px;
+    padding-left: 10px;
+    max-width: 75%;
 }
 
 .cdw {
-    padding-top: 15px;
+    padding-top: 60px;
     padding-left: 30px;
+    max-width: 85%;
+}
+
+.ms {
+    max-width: 85%; 
+    padding-top: 30px;
 }
