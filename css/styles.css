@@ -315,14 +315,15 @@ div .footer-content {
 }
 
 .intel {
-    padding-left: 10px;
+    padding-left: 75px;
+    padding-top: 15px;
     max-width: 75%;
 }
 
 .cdw {
     padding-top: 60px;
-    padding-left: 30px;
-    max-width: 85%;
+    padding-left: 125px;
+    max-width: 95%;
 }
 
 .ms {
@@ -353,7 +354,7 @@ div .footer-content {
 }
     .sch-time {
          width: 350px;
-        padding-left: 330px !important;
+        padding-left: 307px !important;
         padding-right: 30px !important;
         font-family: 'montserratbold', sans-serif;
      }
@@ -370,5 +371,15 @@ div .footer-content {
 
 .sch-icon{
     width: 40px;
+}
+
+.human {
+    font-family: 'playfair_displaybold_italic', serif !important;
+    font-size: 38px;
+}
+
+.human-title {
+    font-family: 'montserratsemi_bold', sans-serif;
+    font-size: 22px;
 }
      
