@@ -29,6 +29,10 @@ a {
     
 }
 
+.a-hidden {
+    color: #777 !important;
+}
+
 sh {
    font-family: 'montserratextra_bold', sans-serif;
    text-transform: uppercase;
@@ -381,5 +385,38 @@ div .footer-content {
 .human-title {
     font-family: 'montserratsemi_bold', sans-serif;
     font-size: 22px;
+}
+
+.headwrap-small {
+    width: 100%;
+    height: 550px !Important;
+    padding: 0;
+    display: table;
+    
+    
+}
+
+.headwrap-small .container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 50px !important;
+    color: rgb(30,30,30);
+    background-color: rgba(255,255,255, .75);
+    
+}
+
+.hw-quote {
+   font-family: 'playfair_displaybold_italic', serif;
+   text-align: center;
+   font-size: 7em !Important;
+}
+
+.socialicon{
+    width: 48px;
+    padding-left: 10px !important;
+    padding-right: 10px !Important;
 }
      

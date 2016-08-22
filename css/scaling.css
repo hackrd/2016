@@ -137,3 +137,143 @@
   and (orientation: landscape) { 
 
 }
+
+/* GALAXY S5 and similar sized devices */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+      
+      .headings {
+            max-width: 200% !important;
+            padding-left: 10px;
+            overflow: hidden;   
+        }
+      
+      h1 {
+    
+    font-size: 1.75em !important;
+          
+    }
+     
+     headtext {
+         font-size: 1.75em !important;
+         line-height: 90%;
+     }
+      
+      h3 {
+          font-size: 1.25em !important;
+          line-height: 89%;
+      }
+     
+     .schedule {
+    font-size: 1em;
+     }
+      
+      
+      
+      .brandlogo {
+ 
+    width: 178px;
+    padding-top: 0px !important;
+    padding-left: 25px;
+
+    
+}
+      
+       .table-borderless td,
+.table-borderless th{
+         font-size: 20px !important;
+         
+     }
+     
+     .table-borderless {
+    padding-left: 120px !important;
+}
+    .sch-time {
+         width: 350px;
+        padding-left: 34px !important;
+        padding-right: 4px !important;
+        
+     }
+     
+     .sch-event {
+         width: 100%;
+         
+     }
+.sch-emoji{
+    width: 1px;
+    padding-right: 10px !important;
+}
+ 
+     p {
+         
+    font-size: 18px;
+         
+     }
+      
+
+.headerlogo {
+    width: 300px !important;
+    
+}
+
+.headwrap .container {
+  
+    padding-left: 1px;
+
+    
+}
+
+.leg-img {
+   width: 290px;
+    
+}
+     .headwrap .container {
+        padding-left: 30px !important;
+     }
+     
+     .intel {
+    padding-left: 85px;
+    max-width: 70%;
+}
+
+.cdw {
+    padding-top: 60px;
+    padding-left: 70px;
+    max-width: 78%;
+}
+
+.ms {
+    max-width: 75%; 
+    padding-top: 10px;
+    padding-left: 65px;
+}
+     
+     .footer-content {
+         font-size: 13px;
+     }
+     
+     
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
