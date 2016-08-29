@@ -224,12 +224,15 @@ headtext {
   font-size: 16px !important;
   font-weight: 200 !important;
   font-family: montserratbold;
- padding-right: 10px;
+    padding-right: 10px;
     top: 288px;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-    
+}
+
+.btn-px a{
+  text-decoration: none;
 }
 
 .btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
