@@ -231,10 +231,6 @@ headtext {
 	transition: all ease 0.2s;
 }
 
-.btn-px a{
-  text-decoration: none;
-}
-
 .btn-px:hover, .btn-px:focus, .btn-px:active, .btn-px.active, .open > .btn-px.dropdown-toggle {
     color: rgb(254, 224, 3);
   background-color: rgb(30,30,30);
