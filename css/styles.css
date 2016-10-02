@@ -52,6 +52,12 @@ h1 {
     
 }
 
+.modaltext {
+    font-family: 'playfair_displaybold_italic', serif;
+    text-align: center !important;
+    font-size: 2em !important;
+}
+
 h3 {
     font-size: 2em !important;
 }
@@ -419,3 +425,7 @@ div .footer-content {
     padding-right: 10px !Important;
 }
      
+.usedefault {
+    font-family: 'Helvetica', sans-serif !important;
+   
+}
