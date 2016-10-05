@@ -230,8 +230,10 @@ headtext {
   font-size: 16px !important;
   font-weight: 200 !important;
   font-family: montserratbold;
-    padding-right: 10px;
-    top: 288px;
+
+    top: 0px;
+    height: 40px;
+    right: 3px;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
@@ -431,11 +433,14 @@ div .footer-content {
 }
 
 li#nav-li{
-    color: rgb(30,30,30);
+    color: rgb(30,30,30) !important;
   background-color: rgb(254, 224, 3);
   border-color: rgb(254, 224, 3);;
   border-radius: 28px;
   border-width: 3px;
+  height: 40px;
+  text-align: center;
+  margin-top: 1%;
   font-size: 16px !important;
   font-weight: 200 !important;
   font-family: montserratbold;
@@ -447,7 +452,7 @@ li#nav-li{
 }
 
 li#nav-li:hover {
-    color: rgb(254, 224, 3);
+    color: rgb(254, 224, 3) !important;
     background-color: rgb(30,30,30);
     border-color: rgb(30,30,30);
     border-radius: 28px;
