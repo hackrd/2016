@@ -230,9 +230,7 @@ headtext {
   font-size: 16px !important;
   font-weight: 200 !important;
   font-family: montserratbold;
-
-    top: 0px;
-    height: 40px;
+    padding-right: 10px;
     right: 3px;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
