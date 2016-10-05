@@ -429,3 +429,28 @@ div .footer-content {
     font-family: 'Helvetica', sans-serif !important;
    
 }
+
+li#nav-li{
+    color: rgb(30,30,30);
+  background-color: rgb(254, 224, 3);
+  border-color: rgb(254, 224, 3);;
+  border-radius: 28px;
+  border-width: 3px;
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  font-family: montserratbold;
+    /*padding-right: 10px;
+    top: 288px;*/
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+}
+
+li#nav-li:hover {
+    color: rgb(254, 224, 3);
+    background-color: rgb(30,30,30);
+    border-color: rgb(30,30,30);
+    border-radius: 28px;
+    border-width: 3px;
+    font-weight: 200 !important;
+}
