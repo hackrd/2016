@@ -430,10 +430,15 @@ div .footer-content {
    font-size: 7em !Important;
 }
 
-.socialicon{
+a .socialicon{
     width: 48px;
     padding-left: 10px !important;
     padding-right: 10px !Important;
+    opacity: 0.75;
+}
+
+a .socialicon:hover {
+    opacity: 1.0;
 }
      
 .usedefault {
