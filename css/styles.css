@@ -305,6 +305,28 @@ headtext {
   border-color: rgb(30,30,30);
 }
 
+.btn-two {
+  color: rgb(30,30,30) !important;
+  background-color: rgb(214,214,214);
+  border-color: rgb(214,214,214);
+  border-radius: 10px;
+  border-width: 1px;
+  font-weight: 200 !important;
+  font-family: 'montserratregular', sans-serif;
+  
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+    
+}
+
+.btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-two.dropdown-toggle {
+    color: rgb(30,30,30) !important;
+  background-color: rgb(234,234,234);
+border-color: rgb(234,234,234);
+
+}
+
 
 .headerlogo {
     width: 950px !important;
