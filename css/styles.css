@@ -320,10 +320,10 @@ headtext {
     
 }
 
-.btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-two.dropdown-toggle {
+btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-two.dropdown-toggle {
     color: rgb(30,30,30) !important;
-  background-color: rgb(234,234,234);
-border-color: rgb(234,234,234);
+    background-color: rgb(234,234,234);
+    border-color: rgb(234,234,234);
 
 }
 
