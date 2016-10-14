@@ -11,7 +11,14 @@
             padding-left: 10px;
             overflow: hidden;   
         }
-      
+    
+     .col-md-4 {
+         padding-bottom: 20px;
+         
+         
+     }
+     
+     
       h1 {
     
     font-size: 1.75em !important;
