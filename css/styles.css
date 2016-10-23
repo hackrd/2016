@@ -583,3 +583,7 @@ li#nav-li:hover {
      width: 1170px;
   }
 }
+
+.downarrow-div {
+    margin-left: -50px;
+}
