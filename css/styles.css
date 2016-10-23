@@ -483,6 +483,20 @@ div .footer-content {
    font-size: 7em !Important;
 }
 
+a .downarrow{
+    width: 62px;
+    padding-left: 10px !important;
+    padding-right: 10px !Important;
+    padding-bottom: 40px !important;
+    opacity: 0.75;
+    position: absolute;
+    bottom: 0;
+}
+
+a .downarrow:hover{
+    opacity: 1.0;
+}
+
 a .socialicon{
     width: 48px;
     padding-left: 10px !important;
