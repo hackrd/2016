@@ -511,6 +511,17 @@ a .socialicon{
 a .socialicon:hover {
     opacity: 1.0;
 }
+
+a .shareicon{
+    width: 80px;
+    padding-left: 10px !important;
+    padding-right: 10px !Important;
+    opacity: 1.0;
+}
+
+a .shareicon:hover {
+    opacity: 0.5;
+}
      
 .usedefault {
     font-family: 'Helvetica', sans-serif !important;
