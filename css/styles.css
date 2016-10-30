@@ -618,6 +618,15 @@ li#nav-li:hover {
 
 .steps-img {
     vertical-align: middle !important;
+}
+
+::-moz-selection { 
+background-color: #b5b5b5; 
+}
+
+::selection {
+background-color: #b5b5b5;
+}
 <<<<<<< HEAD
     
 =======
