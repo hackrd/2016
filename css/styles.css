@@ -511,6 +511,17 @@ a .socialicon{
 a .socialicon:hover {
     opacity: 1.0;
 }
+
+a .shareicon{
+    width: 80px;
+    padding-left: 10px !important;
+    padding-right: 10px !Important;
+    opacity: 1.0;
+}
+
+a .shareicon:hover {
+    opacity: 0.5;
+}
      
 .usedefault {
     font-family: 'Helvetica', sans-serif !important;
@@ -607,5 +618,13 @@ li#nav-li:hover {
 
 .steps-img {
     vertical-align: middle !important;
+<<<<<<< HEAD
     
+=======
+    width: 75%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+>>>>>>> origin/gh-pages
 }
