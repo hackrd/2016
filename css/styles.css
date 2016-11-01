@@ -408,6 +408,16 @@ div .footer-content {
     padding-top: 40px;
 }
 
+.github {
+    max-width: 60%; 
+    padding-top: 60px;
+}
+
+.mlh {
+    max-width: 60%; 
+    padding-top: 40px;
+}
+
 .overlay {
 
    background:transparent; 
@@ -431,9 +441,9 @@ div .footer-content {
 }
     .sch-time {
          width: 350px;
-        padding-left: 300px !important;
+        padding-left: 280px !important;
         padding-right: 30px !important;
-        font-family: 'montserratbold', sans-serif;
+        font-family: 'montserrat', sans-serif;
      }
      
      .sch-event {
