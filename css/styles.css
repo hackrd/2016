@@ -437,13 +437,16 @@ div .footer-content {
 }
 
 .table-borderless {
-    padding-left: 120px !important;
+    z-index: -200;
+    left: 50%;
+    position: relative;
+    margin-left: -500px;
+
 }
     .sch-time {
          width: 350px;
-        padding-left: 280px !important;
-        padding-right: 30px !important;
-        font-family: 'montserrat', sans-serif;
+       
+        font-family: 'montserratlight', sans-serif;
      }
      
      .sch-event {
