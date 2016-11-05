@@ -333,7 +333,7 @@ btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-tw
 
 
 .headerlogo {
-    width: 950px !important;
+    width: 70% !important;
     
     
 }
@@ -345,9 +345,9 @@ section {
 
 .brandlogo {
  
-    width: 294px; 
-    padding-left: 8px; 
-    padding-top: 4px;
+    width: 250px; 
+    margin-top: 5px;
+    margin-left: 2px;
     
 }
 

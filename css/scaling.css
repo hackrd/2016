@@ -54,14 +54,7 @@
      .schedule {
     font-size: 1em;
      }
-.brandlogo {
- 
-    width: 200px;
-    padding-top: 0px !important;
-    padding-left: 25px;
 
-    
-}
      .table-borderless td,
 .table-borderless th{
          font-size: 20px !important;
@@ -154,7 +147,15 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
       
+.brandlogo {
+ 
+    width: 200px;
+    padding-top: 0px !important;
+    margin-top: -1px;
+    padding-left: 25px;
 
+    
+}
       
 }
 
@@ -165,6 +166,16 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+      
+      .brandlogo {
+ 
+    width: 200px;
+    padding-top: 0px !important;
+    margin-top: -3px;
+    padding-left: 5px;
+
+    
+}
 
 }
 
@@ -209,6 +220,8 @@
     width: 178px;
     padding-top: 0px !important;
     padding-left: 25px;
+    margin-top: -1px;
+    margin-left: 1px;
 
     
 }
@@ -326,5 +339,53 @@
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      
+      .brandlogo {
+ 
+    width: 200px;
+    padding-top: 0px !important;
+    margin-top: -1px;
+    padding-left: 30px;
+
+    
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+      
+      .brandlogo {
+ 
+    width: 200px;
+    padding-top: 0px !important;
+    margin-top: -1px;
+    padding-left: 25px;
+
+    
+}
 
 }
