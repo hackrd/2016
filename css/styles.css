@@ -408,6 +408,16 @@ div .footer-content {
     padding-top: 40px;
 }
 
+.github {
+    max-width: 60%; 
+    padding-top: 60px;
+}
+
+.mlh {
+    max-width: 60%; 
+    padding-top: 40px;
+}
+
 .overlay {
 
    background:transparent; 
@@ -427,13 +437,16 @@ div .footer-content {
 }
 
 .table-borderless {
-    padding-left: 120px !important;
+    z-index: -200;
+    left: 50%;
+    position: relative;
+    margin-left: -500px;
+
 }
     .sch-time {
          width: 350px;
-        padding-left: 300px !important;
-        padding-right: 30px !important;
-        font-family: 'montserratbold', sans-serif;
+       
+        font-family: 'montserratlight', sans-serif;
      }
      
      .sch-event {
@@ -618,6 +631,15 @@ li#nav-li:hover {
 
 .steps-img {
     vertical-align: middle !important;
+}
+
+::-moz-selection { 
+background-color: #b5b5b5; 
+}
+
+::selection {
+background-color: #b5b5b5;
+}
 <<<<<<< HEAD
     
 =======
