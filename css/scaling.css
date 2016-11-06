@@ -396,3 +396,15 @@
 }
 
 }
+
+
+/* DESKTOP SPLIT SCREEN */
+@media only screen 
+  and (min-device-width: 682px) 
+  and (max-device-width: 788px) 
+ { 
+     width: 200px;
+    padding-top: 0px !important;
+    margin-top: -1px;
+    padding-left: 25px;
+}
