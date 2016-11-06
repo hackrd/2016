@@ -63,8 +63,19 @@ sh {
 
 h1 {
     
-    font-size: 3vw !important;
+    font-size: 42px; !important;
     
+}
+
+.hero-h1 {
+    
+    font-size: 36px !Important;
+    
+}
+
+.hero-h3 {
+    
+    font-size: 2vw !important;
 }
 
 .modaltext {
@@ -74,7 +85,7 @@ h1 {
 }
 
 h3 {
-    font-size: 2vw !important;
+    font-size: 24px !important;
 }
 
 
@@ -333,7 +344,7 @@ btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-tw
 
 
 .headerlogo {
-    width: 70% !important;
+    width: 45% !important;
     
     
 }
@@ -438,25 +449,32 @@ div .footer-content {
 
 .table-borderless {
     z-index: -200;
-    left: 50%;
+
     position: relative;
-    margin-left: -500px;
+    
+    width: 500px;
+    font-size: 19px !important;
 
 }
     .sch-time {
          width: 350px;
-       
+       font-size: 28px !important;
         font-family: 'montserratlight', sans-serif;
+        
      }
      
      .sch-event {
          width: 100%;
          font-family: 'montserratlight', sans-serif;
+         padding-top: ;
+         font-size: 28px !important;
        
      }
 .sch-emoji{
     width: 1px;
+    padding: 0px !important;
     padding-right: 30px !important;
+    padding-left: 24px !important;
 }
 
 .sch-icon{
