@@ -389,7 +389,7 @@
  
     width: 200px;
     padding-top: 0px !important;
-    margin-top: -1px;
+    margin-top: -5px;
     padding-left: 25px;
 
     
@@ -399,12 +399,13 @@
 
 
 /* DESKTOP SPLIT SCREEN */
-@media only screen 
-  and (min-device-width: 682px) 
-  and (max-device-width: 788px) 
+@media (max-device-width: 768px) 
  { 
-     width: 200px;
-    padding-top: 0px !important;
-    margin-top: -1px;
-    padding-left: 25px;
+     .brandlogo {
+         width: 195px !important;
+    padding: 0px 0px !important;
+    margin-top: -3px !important;
+    padding-left: 25px;     
+     }
+    
 }

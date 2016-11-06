@@ -63,7 +63,7 @@ sh {
 
 h1 {
     
-    font-size: 42px; !important;
+    font-size: 48px; !important;
     
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 .hero-h3 {
     
-    font-size: 2vw !important;
+    font-size: 30px !important;
 }
 
 .modaltext {
@@ -651,20 +651,3 @@ li#nav-li:hover {
     vertical-align: middle !important;
 }
 
-::-moz-selection { 
-background-color: #b5b5b5; 
-}
-
-::selection {
-background-color: #b5b5b5;
-}
-<<<<<<< HEAD
-    
-=======
-    width: 75%;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #dddddd;
->>>>>>> origin/gh-pages
-}
