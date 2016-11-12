@@ -401,8 +401,13 @@ div .footer-content {
     padding-left: 0px;
 }
 
+.sp {
+    padding: 10px;
+    max-width: 60%;
+}
+
 .intel {
-    padding-left: 0px;
+    padding-left: 75px;
     padding-top: 0px;
     max-width: 55%;
     margin-left: 50%
