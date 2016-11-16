@@ -54,10 +54,10 @@ sh {
  font-weight: normal;
     font-style: normal;
     display: inline;
-     background-color: rgb(30,30,30);
+    background-color: rgb(33,33,33);
     color: white;
-    border-left: 4px rgb(30,30,30) solid;
-    border-right: 4px rgb(30,30,30) solid;
+    border-left: 4px rgb(33,33,33) solid;
+    border-right: 4px rgb(33,33,33) solid;
     font-size: 24px;
 }
 
