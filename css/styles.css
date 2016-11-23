@@ -342,6 +342,25 @@ btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-tw
 
 }
 
+.btn-three {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(227, 0, 0);
+  border-radius: 4px;
+  font-weight: 200 !important;
+  font-family: 'montserratregular', sans-serif;
+  
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+    
+}
+
+btn-three:hover, .btn-three:focus, .btn-three:active, .btn-three.active, .open > .btn-three.dropdown-toggle {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(183, 0, 0) !important;
+
+}
+
 
 .headerlogo {
     width: 45% !important;
