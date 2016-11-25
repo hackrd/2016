@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Day Of @ Hack River Dell 2016</title>
+        
+        <!--- Bootstrap CSS and custom CSS --->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/dayof-styles.css" rel="stylesheet">
+       
+        <!--- Fonts  --->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--- JS --->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!--- Favicon Crap --->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="favicon/manifest.json">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="apple-mobile-web-app-title" content="Hack RD 16 Day Of">
+        <meta name="application-name" content="Hack RD 16 Day Of">
+        <meta name="msapplication-TileColor" content="#ffc40d">
+        <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">
+                <img class="brandlogo" src="img/logo.png">
+              </a>
+            </div>
+            
+              
+          </div>
+        </nav>
+        
+        <div class="container">
+        
+            <div class="container-fluid content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Today's the Day</h2>
+                        <h2 class="countdown-time" id="timer"></h2>
+                    </div>
+                    
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul class="nav nav-pills nav-stacked">
+                          <li role="presentation" class="active"><a data-toggle="tab" href="#schedule">Schedule</a></li>
+                          <li role="presentation"><a data-toggle="tab" href="#updates">Updates</a></li>
+                          <li role="presentation"><a data-toggle="tab" href="#map">Map</a></li>
+                          <li role="presentation"><a data-toggle="tab" href="#help">Help</a></li>
+                          <li role="presentation"><a data-toggle="tab" href="#links">Links</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10 tabs-pane">
+                        <div class="tab-content">
+                            <div id="schedule" class="tab-pane fade in active">
+                              <h4 class="timetable-title">Up Next</h4>
+                                <table class="table borderless">
+                                    <tr>
+                                        <td class="event-title">Registration</td>
+                                        <td>Front Lobby</td>
+                                        <td>7:00 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Opening Ceremony</td>
+                                        <td>Front Lobby</td>
+                                        <td>8:00 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Workshop: App Prototyping</td>
+                                        <td>Room 608</td>
+                                        <td>10:00 AM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Lunch: Sandwiches and such</td>
+                                        <td>Cafeteria</td>
+                                        <td>12:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Workshop: Intro to HTML</td>
+                                        <td>Room 606</td>
+                                        <td>2:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Super Smash Bros. Tournament</td>
+                                        <td>Room 504</td>
+                                        <td>2:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Dinner: Pizza and such</td>
+                                        <td>Cafeteria</td>
+                                        <td>2:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Devpost: Submissions Open</td>
+                                        <td></td>
+                                        <td>8:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Devpost: Submissions Close</td>
+                                        <td></td>
+                                        <td>9:00 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Expo</td>
+                                        <td>Library</td>
+                                        <td>9:05 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Expo</td>
+                                        <td>Cafeteria</td>
+                                        <td>9:35 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="event-title">Closing Ceremony</td>
+                                        <td>Auditorium</td>
+                                        <td>10:15 PM</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="updates" class="tab-pane fade">
+                              <h3>Menu 1</h3>
+                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div id="map" class="tab-pane fade">
+                              <h3>Menu 2</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="help" class="tab-pane fade">
+                              <h3>Menu 2</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="links" class="tab-pane fade">
+                              <h3>Menu 3</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+    
+</html>

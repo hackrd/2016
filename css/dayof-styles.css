@@ -1,0 +1,161 @@
+.body {
+    padding-top: 40px !Important;
+    font-family: 'Rubik', sans-serif !Important;
+    font-weight: 400;
+}
+
+/* Custom Navbar */
+
+.navbar-default {
+  background-color: #fdfdfd;
+  border-bottom-color: #d8d8d8;
+  padding-top: 4px;
+  box-shadow: inset 0px 6px 0px rgb(254, 224, 3);
+    
+}
+.navbar-default .navbar-brand {
+  color: #4d4d4d;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #4d4d4d;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #4d4d4d;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #d8d8d8;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #d8d8d8;
+}
+.navbar-default .navbar-toggle {
+  border-color: #d8d8d8;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #d8d8d8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #4d4d4d;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #4d4d4d;
+}
+.navbar-default .navbar-link {
+  color: #4d4d4d;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #4d4d4d;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #d8d8d8;
+  }
+}
+.navbar-text {
+    margin-top: 20px !Important;
+    margin-right: 1% ;
+    font-size: 20px;
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+.brandlogo {
+ 
+    width: 250px; 
+    margin-top: 3px;
+    margin-left: 2px;
+    
+}
+
+.navbar {
+    min-height: 70px !important;
+    
+}
+
+.content {
+    padding-top: 100px !Important;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+    font-weight: 500;
+}
+
+.countdown-time {
+    text-align: right;
+    float: right;
+    margin-top: 0px;
+}
+
+.nav-pills > li > a{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    color: rgb(30,30,30);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: rgb(30,30,30);
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.tabs-pane {
+    background-color: rgb(243, 243, 243);
+    border-radius: 3px;
+    font-family: 'Rubik', sans-serif !Important;
+    font-weight: 400;
+}
+
+.borderless td, .borderless th {
+    border: none !Important;
+    font-size: 20px;
+}
+
+.event-title {
+    font-weight: 700;
+}
+
+.timetable-title {
+    padding-top: 1px;
+    padding-top: 10px;
+    padding-left: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
