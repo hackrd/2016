@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hack River Dell 2016 - Mobile Companion App</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="js/ratchet.js"></script>
+      
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+      
+    <!--- Favicon Crap --->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Hack RD Companion">
+    <meta name="application-name" content="Hack RD Companion">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+      
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      
+    <!--Jay from GitHub Script--> 
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from oppening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+      
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        
+        <!--
+        <a href="index.html" data-transition="slide-out" class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-left-nav"></span>
+    Home
+  </a>
+-->
+
+      <h1 class="title">Schedule</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+
+<ul class="table-view">
+    <li class="table-view-divider">7:00 AM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event01.html" data-transition="slide-in">
+        <b><p style="font-size:105%">Doors Open & Check-In</p></b>
+        <p style="color:gray;">7:00 AM - 8:30 AM</p>
+    </a></li>
+    <li class="table-view-divider">8:00 AM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event02.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Opening Ceremony / Keynote</p></b>
+        <p style="color:gray;">8:00 AM - 8:50 AM</p>
+    </a></li>
+    <li class="table-view-divider">9:00 AM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event03.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Hacking Begins</p></b>
+        <p style="color:gray;">9:00 AM - 9:00 PM</p>
+      </a></li>
+    <li class="table-view-divider">10:00 AM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event10.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Workshop: App Prototyping</p></b>
+        <p style="color:gray;">10:00 AM - 11:00 AM</p>
+    </a></li>
+    <li class="table-view-divider">12:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event04.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Lunch is Served</p></b>
+        <p style="color:gray;">12:00 PM - 1:00 PM</p>
+    </a></li>
+    <li class="table-view-divider">2:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event11.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Workshop: Intro to HTML</p></b>
+        <p style="color:gray;">2:00 PM - 3:00 PM</p>
+    </a></li>
+    <li class="table-view-divider">3:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event06.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Super Smash Bros. Tournament</p></b>
+        <p style="color:gray;">3:00 PM - 6:00 PM</p>
+    </a></li>
+    <li class="table-view-divider">6:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event05.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Dinner is Served</p></b>
+        <p style="color:gray;">6:00 PM - 7:30 PM</p>
+    </a></li>
+    <li class="table-view-divider">9:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event07.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Hacking Ends / Submit Hacks</p></b>
+        <p style="color:gray;">9:00 PM</p>
+    </a></li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event08.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Hacking Expo</p></b>
+        <p style="color:gray;">9:00 PM - 10:00 PM</p>
+    </a></li>
+    
+    
+    <li class="table-view-divider">10:00 PM</li>
+    <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event08.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Judging</p></b>
+        <p style="color:gray;">10:00 PM - 10:30 PM</p>
+    </a></li>
+    
+      <li class="table-view-cell"><a class="navigate-right" href="eventinfo/event08.html" data-transition="slide-in">
+      <b><p style="font-size:105%">Closing/Awards Ceremony</p></b>
+        <p style="color:gray;">10:30 PM - 11:30 PM</p>
+    </a></li>
+    </a></li>
+    <li class="table-view-divider" align=center style="color: gray; font-size: 12px; font-weight: 400;"><i class="fa fa-clock-o" aria-hidden="true"></i> Updated: 11/5/16 at 10:20:54 PM</li>       
+
+    
+
+</ul>
+
+
+<!--- event modals --->
+        
+        <div id="event01" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event01"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Doors open / Breakfast in the Cafe</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 6:00-6:25</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        We're gonna let you inside the building, of course! We also have breakfast served until 7:30 am.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event01">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event02" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event02"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Opening Ceremony</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 8:00 AM - 8:50 AM</li>
+  <li class="table-view-cell"><b>Location:</b> Auditorium</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Kicks off the hackathon. Meet the judges, quick demos, and get filled in on some important information before the event formally starts.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event02">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event03" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event03"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Let the hacking commence!</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 7:00 AM - 7:00 PM</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Start your hack! You've only got 12 hours to work on it. Seriously, get at it!
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event03">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event04" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event04"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Lunch in the Cafe</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 12:00 PM - 1:00 PM</li>
+        <li class="table-view-cell"><b>Location:</b> Cafeteria</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Well, we wouldn't starve you. Lunch served until 1:00.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event04">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event05" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event05"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Dinner in the Cafe</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 5:00 PM - 6:00 PM</li>
+        <li class="table-view-cell"><b>Location:</b> Cafeteria</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        You probably want dinner, right? So, we have served it. Served until 6:00 PM.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event05">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event06" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event06"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Super Smash Bros. Melee Tournament</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 6:15 PM - 7:30 PM</li>
+        <li class="table-view-cell"><b>Location:</b> Cafeteria</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Some say that you win a cool prize if you do in fact win. ;)
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event06">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event07" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event07"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Submit your hack</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 9:00 PM</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Times Up! Submissions must be put in Devpost by 9:00 PM. No late submissions; if you don't submit, you're DQ'd.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event07">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event08" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event08"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Hack Expo</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 9:35 - 10:15 PM</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        It's time to show off! This is where you get to present to the world the monstrosity that you've created in just a mere 12 hours. This is where the judges come around to determine a winner.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event08">Close</a>
+
+  </div>
+</div>
+        
+        <div id="event09" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#event09"></a>
+    <h1 class="title">Event Information</h1>
+  </header>
+
+  <div class="content">
+<h2 class="content-padded" align="center">Closing Ceremony</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 10:15 - 11:00 PM</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        I'd say it's pretty late, so it's time to wrap this show up. Winners are announced, and we'll send you off with some swag.
+        </li>
+        
+
+  
+</ul>
+      
+      <a class="btn btn-negative btn-block" href="#event09">Close</a>
+
+  </div>
+</div>
+    
+        
+   
+
+
+        
+        
+    </div>
+
+<nav class="bar bar-tab" style="background-color:#1D2123">
+  <a class="tab-item" href="index.html">
+    <span class="icon icon-inactive icon-home"></span>
+    <span class="tab-label icon-inactive">Home</span>
+  </a>
+  <a class="tab-item" href="map.html">
+    <span class="icon icon-inactive fa fa-map"></span>
+    <span class="tab-label icon-inactive">Map</span>
+  </a>
+  <a class="tab-item active" href="schedule.html">
+    <span class="icon fa fa-clock-o"></span>
+    <span class="tab-label">Schedule</span>
+  </a>
+  <a class="tab-item" href="newsfeed.html">
+    <span class="icon icon-inactive fa fa-newspaper-o"></span>
+    <span class="tab-label icon-inactive">News</span>
+  </a>
+  <a class="tab-item" href="about.html">
+    <span class="icon icon-inactive icon-info"></span>
+    <span class="tab-label icon-inactive">About</span>
+  </a>
+
+      
+  </body>
+</html>

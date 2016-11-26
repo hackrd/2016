@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hack River Dell 2016 - Mobile Companion App</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="js/ratchet.js"></script>
+      
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+      
+      <!--- Favicon Crap --->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Hack RD">
+    <meta name="application-name" content="Hack RD Companion">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+      
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      
+    <!--Jay from GitHub Script--> 
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from oppening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+      
+    
+      
+  </head>
+  <body> 
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <!--
+
+<a href="index.html" data-transition="slide-out" class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-left-nav"></span>
+    Home
+  </a>
+
+-->
+    <h1 class="title">News</h1>
+        <a class="btn btn-link pull-right refresh" HREF="javascript:history.go(0)"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+    </header>
+      
+      
+<div class="content">
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <!--<div class="card">
+            <ul class="table-view">
+    <li class="table-view-cell"><h4>Test message</h4>
+        <p>by Michael Vasile - 7/18/16 / 5:55 pm</p></li>
+    <li class="table-view-cell"><p style="color: white">Lorem ipsum and some other garbage. I'm just writing this to fill up the page with nonsense to see how this whole thing works. I didn't say you should read it.</p></li>
+  </ul>
+    </div>-->
+      <a class="twitter-timeline" data-lang="en" data-theme="dark" data-link-color="#ffe200" href="https://twitter.com/HackRiverDell">Tweets by HackRiverDell</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <p style="text-align:center;">Tap refresh if News doesn't appear</p>
+</div>
+      
+      
+      
+
+      <nav class="bar bar-tab" style="background-color:#1D2123">
+  <a class="tab-item" href="index.html">
+    <span class="icon icon-inactive icon-home"></span>
+    <span class="tab-label icon-inactive">Home</span>
+  </a>
+  <a class="tab-item" href="map.html">
+    <span class="icon icon-inactive fa fa-map"></span>
+    <span class="tab-label icon-inactive">Map</span>
+  </a>
+  <a class="tab-item" href="schedule.html">
+    <span class="icon icon-inactive fa fa-clock-o"></span>
+    <span class="tab-label icon-inactive">Schedule</span>
+  </a>
+  <a class="tab-item active" href="newsfeed.html">
+    <span class="icon fa fa-newspaper-o"></span>
+    <span class="tab-label">News</span>
+  </a>
+  <a class="tab-item" href="about.html">
+    <span class="icon icon-inactive icon-info"></span>
+    <span class="tab-label icon-inactive">About</span>
+  </a>
+</nav>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hack River Dell 2016 - Mobile Companion App</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="../css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="../js/ratchet.js"></script>
+      
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+      
+      <!--- Favicon Crap --->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="../favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Hack RD Companion">
+    <meta name="application-name" content="Hack RD Companion">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="../favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+      
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      
+    <!--Jay from GitHub Script--> 
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from oppening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <a href="../schedule.html" data-transition="slide-out" class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-left-nav"></span>
+        Schedule
+  </a>
+      <h1 class="title">Event Details</h1>
+    </header>
+
+  <div class="content">
+<h2 class="content-padded">Workshop: Intro to HTML</h2>
+    <ul class="table-view">
+  <li class="table-view-cell"><b>Duration:</b> 2:00 PM - 3:00 PM</li>
+        <li class="table-view-cell"><b>Location:</b> Room 606</li>
+        <li class="table-view-cell table-view-cell"><b>Details:</b>
+        <br>
+        Michael Vasile will show you the ropes of HTML, and will help you get started with your first web app.
+        </li>
+        <li class="table-view-cell table-view-cell"><b>Instructions:</b>
+        <br>
+        Register for this workshop on HackRiverDell.com
+        </li>
+        
+
+  
+</ul>
+
+      
+      
+
+  </div>
+</div>
+     
+</div>
+    
+        
+        
+
+
+        
+        
+    </div>
+
+  </body>
+</html>
