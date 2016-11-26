@@ -1,7 +1,10 @@
 .body {
-    padding-top: 40px !Important;
+
     font-family: 'Rubik', sans-serif !Important;
     font-weight: 400 !important;
+    margin:0;
+	padding:0;
+	height:100%;
 }
 
 /* Custom Navbar */
@@ -320,5 +323,5 @@ div .footer-content {
 /* END MAP ICON COLORS */
 
 #content {
-	padding-bottom: 285px;
+	padding-bottom: 220px;
 }
