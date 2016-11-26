@@ -6,11 +6,11 @@
         <!--- Bootstrap CSS and custom CSS --->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/dayof-styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         
        
         <!--- Fonts  --->
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-        
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
         <!--- JS --->
@@ -31,20 +31,26 @@
     </head>
     <body>
         <div class="container-fluid header" align="center">
-            <img src="img/sticker_header.png" width="65%">
+            <img src="img/sticker_header.png" width="62%">
         </div>
         <div class="container">
+            <!--
+            <div id="mobilealert" class="alert alert-warning alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              On a mobile device, we recommend using <a>our mobile app</a> for day-of information
+            </div> -->
+            
             <div align="center" class="div-nav">
             <ul class="nav nav-pills">
                       <li role="presentation" class="active"><a data-toggle="tab" href="#schedule"> Schedule</a></li>
                       <li role="presentation"><a data-toggle="tab" href="#updates">Updates</a></li>
                       <li role="presentation"><a data-toggle="tab" href="#map">Map</a></li>
-                      <li role="presentation"><a data-toggle="tab" href="#help">Help</a></li>
+                      <li role="presentation"><a data-toggle="tab" href="#activities">Activities</a></li>
                       <li role="presentation"><a data-toggle="tab" href="#links">Links</a></li>
                       <!--<li role="presentation" class="back"><a href="index.html">Back to Home</a></li>-->
                 </ul>
             </div>    
-
+                <br>
                 <div class="tab-content">
                     <div id="schedule" class="tab-pane fade in active">
                       <h4 class="timetable-title">Up Next</h4>
@@ -84,7 +90,7 @@
                             <tr>
                                 <td class="event-title">Super Smash Bros. Tournament</td>
                                 <td>Room 504</td>
-                                <td>2:00 PM</td>
+                                <td>3:00 PM</td>
                             </tr>
                             <tr>
                                 <td class="event-title">Dinner: Pizza and such</td>
@@ -119,12 +125,52 @@
                         </table>
                     </div>
                     <div id="updates" class="tab-pane fade">
-                      <h3>Menu 1</h3>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <div class="row">
+                        <div class="col-md-6">
+                            <h3>Updates</h3>
+                            <p>We will be posting updates here during the event. Check back later.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="twitter-timeline" data-height="750" data-theme="light" data-link-color="#fee003" href="https://twitter.com/HackRiverDell">Tweets by HackRiverDell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                             
+                      </div>
                     </div>
                     <div id="map" class="tab-pane fade">
-                      <h3>Menu 2</h3>
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                            <h3>Locations</h3>
+                            <table class="table borderless">
+                            <tr>
+                                <td><i class="fa fa-circle map-auditorium" aria-hidden="true"></i></td>
+                                <td>Auditorium</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-circle map-library" aria-hidden="true"></i></td>
+                                <td>Library (Hacking Space)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-circle map-504" aria-hidden="true"></i></td>
+                                <td>Smash Bros. Tourney (Room 504)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-circle map-cafeteria" aria-hidden="true"></i></td>
+                                <td>Cafeteria (Hacking Space)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-circle map-wsr" aria-hidden="true"></i></td>
+                                <td>Workshop Rooms (Room 606 & 608)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa fa-male map-rr" aria-hidden="true"></i><i class="fa fa-female map-rr" aria-hidden="true"></i></td>
+                                <td>Restrooms</td>
+                            </tr>
+                            </table>
+                            </div>
+                            <div class="col-md-8">
+                            <img src="img/map.png" width="100%">
+                            </div>
+                        </div>
                     </div>
                     <div id="help" class="tab-pane fade">
                       <h3>Menu 2</h3>
@@ -136,7 +182,35 @@
                     </div>
                   </div>
                 </div>
+                
+        <script type="text/javascript">
+          if (screen.width <= 800) {
+            $('#mobilealert').show();
+              
+          } else {
+             $('#mobilealert').hide();
+            }
+
+        </script>
         
+        
+        <footer>
+            <div class="container footer-content" align="center">
+            <img src="img/foot_img.png" class="leg-img">    
+                <br>
+                <br>
+                
+                <p class="text-muted footer-content">&copy; 2016 <a href="http://riverdell.org/" class="a-hidden">River Dell Regional School District</a> | Made by <a href="team.html" class="a-hidden">humans</a>.</p>
+                
+                <div align="center">
+                    <a href="index.html" class="btn btn-px">Back to Home</a>
+                </div>
+                
+
+
+
+
+        </footer>
         
     </body>
     
