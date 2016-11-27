@@ -319,3 +319,8 @@ div .footer-content {
     color: rgb(52,73,93);
 }
 /* END MAP ICON COLORS */
+
+
+/* FOOTER FIXES 
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }*/
