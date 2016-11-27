@@ -1,7 +1,10 @@
 .body {
-    padding-top: 40px !Important;
+
     font-family: 'Rubik', sans-serif !Important;
     font-weight: 400 !important;
+    margin:0;
+	padding:0;
+	height:100%;
 }
 
 /* Custom Navbar */
@@ -226,17 +229,16 @@ th {
 }
 
 footer {
-    min-height: 250px;
     background-color: rgb(232, 232, 232);
     color: rgb(51, 51, 51);
-    margin-top: 40px;
-    padding-top: 20px;
-    padding-bottom: 0px; !important
     
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   width:100%;
+    
+    padding-top: 20px;
+    height: 250px !important;
+    width: 100% !important;
+	position: static;
+	bottom:0;
+	left:0;
     
 }
 
@@ -320,7 +322,6 @@ div .footer-content {
 }
 /* END MAP ICON COLORS */
 
-
-/* FOOTER FIXES 
-html, body, #container { height: 100%; }
-body > #container { height: auto; min-height: 100%; }*/
+#content {
+	padding-bottom: 220px;
+}
