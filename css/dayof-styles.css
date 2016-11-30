@@ -325,3 +325,20 @@ div .footer-content {
 #content {
 	padding-bottom: 220px;
 }
+
+.link-title {
+    text-transform: uppercase;
+    color: black !important;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.link-title:hover {
+    color: black !important;
+}
+
+.link-icons {
+    width: 40%;
+    padding-bottom: 5px;
+    
+}
