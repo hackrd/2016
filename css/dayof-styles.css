@@ -298,11 +298,11 @@ div .footer-content {
 
 /* BEGIN MAP ICON COLORS */
 .map-auditorium {
-    color: rgb(81,168,249);
+    color:rgb(112,192,64);
 }
 
 .map-library {
-    color: rgb(112,192,64);
+    color: rgb(240,212,39);
 }
 
 .map-504 {
@@ -310,15 +310,23 @@ div .footer-content {
 }
 
 .map-cafeteria {
-    color: rgb(240,212,39);
+    color: rgb(180,105,226);
 }
 
 .map-wsr {
-    color: rgb(180,105,226);
+    color: rgb(226, 105, 217);
 }
 
 .map-rr {
     color: rgb(52,73,93);
+}
+
+.map-lobby {
+    color: rgb(81,168,249);
+}
+
+.map-restrooms {
+    color: rgb(249, 120, 81);
 }
 /* END MAP ICON COLORS */
 
