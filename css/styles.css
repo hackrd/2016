@@ -1,14 +1,13 @@
-/* This is the styles for the STEMposium wbesite. */
 /* Yellow accent color = rgb(254, 224, 3); */
 
 body {
     font-family: 'montserratlight', sans-serif;
- font-weight: normal;
+    font-weight: normal;
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 0px;
     font-size: 16px;
- 
+
 }
 
 body .register {
@@ -26,7 +25,7 @@ a {
 .blind {
     color: inherit;
     text-decoration: none;
-    
+
 }
 
 .blind:hover {
@@ -36,12 +35,12 @@ a {
 
 .normal {
     color: rgb(234, 205, 0) !important;
-    
+
 }
 
 .footer {
     color: rgb(57, 57, 57) !important;
-    
+
 }
 
 .a-hidden {
@@ -62,19 +61,19 @@ sh {
 }
 
 h1 {
-    
+
     font-size: 48px; !important;
-    
+
 }
 
 .hero-h1 {
-    
+
     font-size: 36px !Important;
-    
+
 }
 
 .hero-h3 {
-    
+
     font-size: 30px !important;
 }
 
@@ -97,7 +96,7 @@ h3 {
     border-right: 8px rgb(254, 224, 3) solid; */
     position: relative;
     text-align: center !important;
-    
+
 }
 
 .section-heading:after {
@@ -122,7 +121,7 @@ h3 {
   height: 2px;
   position: absolute;
     top: 50%;
-    
+
   width: 100%;
 }
 .section-heading:before {
@@ -133,11 +132,11 @@ h3 {
 
 .navbar-default{ /* assigning the top bar to the entire navbar div element */
     text-align: center;
-    box-shadow: inset 0px 6px 0px rgb(254, 224, 3); /* initial gray color to the top bar */   
+    box-shadow: inset 0px 6px 0px rgb(254, 224, 3); /* initial gray color to the top bar */
     padding-top: 4px;
     background-color: rgb(248, 248, 248) !important;
     border-color: transparent
-        
+
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -154,12 +153,12 @@ h3 {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    
+
     font-family: montserratsemi_bold;
     -webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-     
+
 }
 
 .navbar-toggle {
@@ -240,8 +239,8 @@ h3 {
     color: #fff;
     max-width: 100%;
     height: 100vh;
-    
-    
+
+
 }
 
 #header-team {
@@ -257,8 +256,8 @@ h3 {
     color: #fff;
     max-width: 100%;
     height: 100vh;
-    
-    
+
+
 }
 
 
@@ -266,13 +265,13 @@ h3 {
     width: 100%;
     padding: 0;
     display: table;
-    
-    
+
+
 }
 
 headtext {
     font-size: 3.5em !important;
-    
+
          line-height: 200%;
 }
 
@@ -285,14 +284,14 @@ headtext {
     padding-left: 50px !important;
     color: rgb(30,30,30);
     background-color: rgba(255,255,255, .75);
-    
+
 }
 .headings {
     width: 1983px;
     padding-left: 97px;
     overflow: hidden;
-    
-    
+
+
 }
 
 .btn-px {
@@ -325,11 +324,11 @@ headtext {
   border-width: 3px;
   font-weight: 200 !important;
   font-family: montserratbold;
-  
+
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-    
+
 }
 
 .btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
@@ -346,11 +345,11 @@ headtext {
   border-width: 1px;
   font-weight: 200 !important;
   font-family: 'montserratregular', sans-serif;
-  
+
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-    
+
 }
 
 btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-two.dropdown-toggle {
@@ -366,11 +365,11 @@ btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-tw
   border-radius: 4px;
   font-weight: 200 !important;
   font-family: 'montserratregular', sans-serif;
-  
+
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	transition: all ease 0.2s;
-    
+
 }
 
 btn-three:hover, .btn-three:focus, .btn-three:active, .btn-three.active, .open > .btn-three.dropdown-toggle {
@@ -385,10 +384,10 @@ btn-three:hover, .btn-three:focus, .btn-three:active, .btn-three.active, .open >
   border-radius: 4px;
   font-weight: 200 !important;
   font-family: 'montserratregular', sans-serif;
-  
+
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
-	transition: all ease 0.2s;   
+	transition: all ease 0.2s;
 }
 
 btn-four:hover, .btn-four:focus, .btn-four:active, .btn-four.active, .open > .btn-four.dropdown-toggle {
@@ -399,8 +398,8 @@ btn-four:hover, .btn-four:focus, .btn-four:active, .btn-four.active, .open > .bt
 
 .headerlogo {
     width: 45% !important;
-    
-    
+
+
 }
 
 section {
@@ -409,16 +408,16 @@ section {
 }
 
 .brandlogo {
- 
-    width: 250px; 
+
+    width: 250px;
     margin-top: 5px;
     margin-left: 2px;
-    
+
 }
 
 .abt-sect {
     padding-bottom: 35px;
-    
+
 }
 
 iframe {
@@ -431,11 +430,11 @@ footer {
     color: #333333;
     padding-top: 20px;
     padding-bottom: 0px; !important
-    
+
 }
 
 div .footer-content {
-    
+
     text-align: center;
     align-items: center;
 }
@@ -443,7 +442,7 @@ div .footer-content {
 .leg-img {
     width: 35%;
 
-    
+
 }
 
 .schedule {
@@ -482,12 +481,12 @@ div .footer-content {
 }
 
 .ms {
-    max-width: 85%; 
+    max-width: 85%;
     padding-top: 40px;
 }
 
 .github {
-    max-width: 80%; 
+    max-width: 80%;
     padding-top: 60px;
     padding-left: 60px;
     margin-left: 10%
@@ -498,15 +497,15 @@ div .footer-content {
 }
 
 .mlh {
-    max-width: 60%; 
+    max-width: 60%;
     padding-top: 40px;
     margin-left: 20%;
 }
 
 .overlay {
 
-   background:transparent; 
-   position:relative; 
+   background:transparent;
+   position:relative;
    width:100%;
    height:480px; /* your iframe height */
    top:480px;  /* your iframe height */
@@ -517,15 +516,15 @@ div .footer-content {
 .table-borderless th {
     border: 0 !important;
     font-size: 36px;
-  
-    
+
+
 }
 
 .table-borderless {
     z-index: -200;
 
     position: relative;
-    
+
     width: 500px;
     font-size: 19px !important;
 
@@ -534,15 +533,15 @@ div .footer-content {
          width: 350px;
        font-size: 28px !important;
         font-family: 'montserratlight', sans-serif;
-        
+
      }
-     
+
      .sch-event {
          width: 100%;
          font-family: 'montserratlight', sans-serif;
          padding-top: ;
          font-size: 28px !important;
-       
+
      }
 .sch-emoji{
     width: 1px;
@@ -570,8 +569,8 @@ div .footer-content {
     height: 550px !Important;
     padding: 0;
     display: table;
-    
-    
+
+
 }
 
 .headwrap-small .container {
@@ -583,7 +582,7 @@ div .footer-content {
     padding-left: 50px !important;
     color: rgb(30,30,30);
     background-color: rgba(255,255,255, .75);
-    
+
 }
 
 .hw-quote {
@@ -627,10 +626,10 @@ a .shareicon{
 a .shareicon:hover {
     opacity: 0.5;
 }
-     
+
 .usedefault {
     font-family: 'Helvetica', sans-serif !important;
-   
+
 }
 
 li#nav-li{
@@ -718,10 +717,9 @@ li#nav-li:hover {
 }
 
 .steps-col {
-  
+
 }
 
 .steps-img {
     vertical-align: middle !important;
 }
-

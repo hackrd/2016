@@ -5,21 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Day Of @ Hack River Dell 2016</title>
-        
+
         <!--- Bootstrap CSS and custom CSS --->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/dayof-styles.css" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        
-       
+
+
         <!--- Fonts  --->
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+
         <!--- JS --->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        
+
         <!--- Favicon Crap --->
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
@@ -31,6 +31,25 @@
         <meta name="msapplication-TileColor" content="#ffc40d">
         <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
         <meta name="theme-color" content="#ffffff">
+
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+        <script>
+          var OneSignal = window.OneSignal || [];
+          OneSignal.push(["init", {
+            appId: "b1e9437d-a2de-46bc-a8aa-1490dbc47898",
+            autoRegister: false, /* Set to true to automatically prompt visitors */
+            subdomainName: 'https://hackriverdell.onesignal.com',
+            /*
+            subdomainName: Use the value you entered in step 1.4: http://imgur.com/a/f6hqN
+            */
+            httpPermissionRequest: {
+              enable: true
+            },
+            notifyButton: {
+                enable: true /* Set to false to hide */
+            }
+          }]);
+        </script>
     </head>
     <body style="min-height:100%">
         <div class="container-fluid header" align="center">
@@ -42,7 +61,7 @@
               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               On a mobile device, we recommend using <a>our mobile app</a> for day-of information
             </div> -->
-            
+
             <div align="center" class="div-nav">
             <ul class="nav nav-pills">
                       <li role="presentation" class="active"><a data-toggle="tab" href="#schedule"> Schedule</a></li>
@@ -52,7 +71,7 @@
                       <li role="presentation"><a data-toggle="tab" href="#links">Links</a></li>
                       <!--<li role="presentation" class="back"><a href="index.html">Back to Home</a></li>-->
                 </ul>
-            </div>    
+            </div>
                 <br>
                 <div class="tab-content">
                     <div id="schedule" class="tab-pane fade in active">
@@ -136,7 +155,7 @@
                         <div class="col-md-6">
                             <a class="twitter-timeline" data-height="750" data-theme="light" data-link-color="#fee003" href="https://twitter.com/HackRiverDell">Tweets by HackRiverDell</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
-                             
+
                       </div>
                     </div>
                     <div id="map" class="tab-pane fade">
@@ -181,7 +200,7 @@
                     </div>
                     <div id="activities" class="tab-pane fade">
                       <h3>Activities</h3>
-                      
+
                         <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeuihlOchXPtTBms4FggYu_icHls-_sa_7nR3NgUq0RITcc6Q/viewform">Sign up for the Super Smash Bros. Tournament</a></p>
                         <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfn4vuMP8URv69PnNqZkOExjkA55v19o2vAXx9y6UF2RK4Tsg/closedform">Sign up for Workshops</a></p>
                         <p><a href="https://youtu.be/T_UmhCd2Fyg">How to submit to Devpost</a></p>
@@ -251,53 +270,40 @@
                                     <p>Send us your snaps!</p>
                                 </div>
                             </div>-->
-                        
+
                     </div>
                   </div>
                 </div>
-                
+
         <script type="text/javascript">
           if (screen.width <= 800) {
             $('#mobilealert').show();
-              
+
           } else {
              $('#mobilealert').hide();
             }
 
         </script>
-        
-        <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/580a7e84d0f23f0cd8db8c3e/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
         
         <footer style="bottom:0; position: relative;">
             <div class="container footer-content" align="center">
-            <img src="img/foot_img.png" class="leg-img">    
+            <img src="img/foot_img.png" class="leg-img">
                 <br>
                 <br>
-                
+
                 <p class="text-muted footer-content">&copy; 2016 <a href="http://riverdell.org/" class="a-hidden">River Dell Regional School District</a> | Made by <a href="team.html" class="a-hidden">humans</a>.</p>
-                
+
                 <div align="center">
                     <a href="index.html" class="btn btn-px">Back to Home</a>
                 </div>
-                
+
 
 
 
 
         </footer>
-        
+
     </body>
-    
+
 </html>
