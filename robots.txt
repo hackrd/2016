@@ -2,3 +2,14 @@ User-agent: *
 Disallow: /team.html
 Disallow: /404.html
 Disallow: /day-of.html
+Disallow: /replay.html
+Disallow: /register.html
+Disallow: /docs/*
+Disallow: /img/*
+Disallow: /fonts/*
+Disallow: /favicon/*
+Disallow: /app/*
+Disallow: /css/*
+Disallow: /js/*
+Disallow: /less/*
+Disallow: /scss/*
